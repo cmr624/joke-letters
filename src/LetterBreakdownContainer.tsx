@@ -35,14 +35,14 @@ const LetterBreakdownContainer = () => {
             label="Type in your joke here!!!"
             color="primary"
             onChange={onTextChange}
-            style={{width:'400px'}}
+            style={{width:'80%', textAlign:'center'}}
             />
         </form>
         <h2>RESULTS</h2>
         <ul>
             {
             //@ts-ignore
-            currentLetterList.map((e) => <li>{e.letter} = {e.count}</li>)
+            currentLetterList.map((e) => <li><b>{e.letter} = {e.count}</b></li>)
             }
         </ul>
         </>

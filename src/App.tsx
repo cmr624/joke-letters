@@ -6,7 +6,7 @@ import LetterBreakdownContainer from './LetterBreakdownContainer';
 function App() {
   return (
     <div className="App">
-      <h1>Type in your joke!</h1>
+      <h1>Type in your joke! 😆</h1>
       <LetterBreakdownContainer/>
     </div>
   );
